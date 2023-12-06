@@ -1,196 +1,93 @@
 <!doctype html>
-<html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<html lang="hu">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>Drupal User Group Budapest - AI és webfejlesztés</title>
+    <title>Drupal User Group Budapest - AI és webfejlesztés</title>
 
-		<link rel="stylesheet" href="dist/reset.css">
-		<link rel="stylesheet" href="dist/reveal.css">
-		<link rel="stylesheet" href="dist/theme/black.css">
+    <link rel="stylesheet" href="dist/reset.css">
+    <link rel="stylesheet" href="dist/reveal.css">
+    <link rel="stylesheet" href="dist/theme/black.css">
 
-		<!-- Theme used for syntax highlighted code -->
-		<link rel="stylesheet" href="plugin/highlight/monokai.css">
+    <!-- Theme used for syntax highlighted code -->
+    <link rel="stylesheet" href="plugin/highlight/monokai.css">
 
-				<!-- Google Fonts -->
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
 
-	</head>
-	<body>
-		<div class="reveal">
-			<div class="slides">
-								<!-- About  -->
-				<section>
-					<span style="padding: 20px 40px;">
-							<span style="font-family: Abril Fatface; color: #e27058; font-size: 50px;">
+</head>
+<body>
+<div class="reveal">
+    <div class="slides">
+
+        <section>
+            <h2>Webfejlesztés és AI</h2>
+            <span style="font-family: Abril Fatface; color: #e27058; font-size: 50px;">
 								gizra
 							</span>
-					</span>
-				</section>
+            <div class="fragment">
+                <div style="font-family: Abril Fatface; font-size: 15px;">
 
-				<section>
-					<h2>Webfejlesztés és AI</h2>
-					<div>
-						<span style="font-family: Abril Fatface; color: #e27058; font-size: 50px;">
-							Novák Áron
-						</span>
-						aron@gizra.com</div>
-				</section>
+                    <a href="mailto:aron@gizra.com">Novák Áron</a>
+                </div>
+            </div>
+        </section>
 
-				<!-- What We Do -->
-				<section>
-	  		  <h2>AI hírek</h2>
-						<div class="fragment">
-	  					<div>
-	  					  <h4>Be My Eyes</h4>
-	  					  <h4>Google Gemini - GPT4 kihívó</h4>
-	  					</div>
-						</div>
-				</section>
+        <!-- What We Do -->
+        <section>
+            <h2>AI hírek</h2>
+            <div class="fragment">
+                <div>
+                    <h4><a href="https://bemyeyes.com/">Be My Eyes</h4>
+                    <h4><a href="https://bard.google.com/">Google Gemini - GPT4 kihívó</a></h4>
+                </div>
+            </div>
+        </section>
 
-				<!-- How We Do -->
-				<section>
-	  		  <h2>How We Do</h2>
-						<div class="fragment">
-	  					<div>
-	  					  <h4>The <span style="font-family: Abril Fatface; color: #e27058; font-size: 55px; text-transform: lowercase;">gizra</span> Way</h4>
-	  					</div>
-	  					<div>
-	              <p>A culmination of best practices, lessons learned, and philosophy that is incorporated into our project workflow,
-	              saving our clients money and ensuring the timely delivery of a product.</p>
-	  					</div>
-						</div>
-				</section>
+        <!-- How We Do -->
+        <section>
+            <h2>Prompting tippek és trükkök</h2>
+            <div class="fragment">
+                <div>
+                    <h4>Gyors és buta junior fejlesztő = AI</h4>
+                    <h4>Python kódot ír a leghatékonyabban</h4>
+                    <h4>Igyekszik nem teljes választ adni, script workaround</h4>
+                    <h4>Egy jó ticket/issue általában majdnem jó prompt</h4>
+                </div>
+            </div>
+        </section>
 
-				<section>
-					<h2>Multisite Platforms</h2>
-				</section>
+        <section>
+            <h2>Self-hosted AI demo</h2>
+            <div>
+                <h4><a href="https://hup.hu/node/182724">CodeLlama és llama.cpp</a></h4>
+                <div class="fragment">
+                    <div>Centralizált AI veszélyeire válasz</div>
+                    <div>CPU-n és GPU-n is használható</div>
+                </div>
+            </div>
+        </section>
 
+    </div>
+</div>
 
-								<!-- OpenScholar -->
-				<section>
-					<h3><a href="https://openscholar.harvard.edu/" target="_blank">Harvard University</a></h3>
-					<div>Enabling push-button creation of websites</div>
-					<img src="https://user-images.githubusercontent.com/688507/109798099-eed82c00-7bdf-11eb-9bf1-1839be730f73.png" />
-				</section>
+<script src="dist/reveal.js"></script>
+<script src="plugin/notes/notes.js"></script>
+<script src="plugin/markdown/markdown.js"></script>
+<script src="plugin/highlight/highlight.js"></script>
+<script>
+  // More info about initialization & config:
+  // - https://revealjs.com/initialization/
+  // - https://revealjs.com/config/
+  Reveal.initialize({
+    hash: true,
 
-				<section>
-					<h3><a href="https://haiti.un.org/" target="_blank">UN Country Teams</a></h3>
-					<div>Easy deployment for sites in developing countries</div>
-					<img src="https://user-images.githubusercontent.com/688507/231488163-bf4e630f-d08e-406c-acff-110418e23e08.png" />
-				</section>
-
-
-				<section>
-					<h2>Data & Transparency</h2>
-				</section>
-
-
-				<!-- UNSDG -->
-				<section>
-					<h3><a href="https://unsdg.un.org/" target="_blank">The United Nations Sustanible Development Group</a></h3>
-					<div>Configurable e-reports for transparency</div>
-					<img src="https://user-images.githubusercontent.com/86193908/230863447-8b58d626-cade-497e-8b22-94d347751dfe.png" />
-				</section>
-				
-				<!-- OpenUN -->
-				<section>
-					<h3><a href="https://open.un.org/" target="_blank">Open UN</a></h3>
-					<div>Systemwide financial visualization</div>
-					<img src="https://user-images.githubusercontent.com/86193908/230921721-4901d1a0-f164-48cf-a079-27bc7e306612.png" />
-				</section>
-
-				<!-- C4D -->
-				<section style="" class="present">
-					<h3>The European Commission</h3>
-					<div>Knowledge sharing between different units</div>
-					<img src="https://cloud.githubusercontent.com/assets/125707/12972882/5623de7a-d0b1-11e5-81e4-743d6b65218f.jpg" />
-				</section>
-
-				<section>
-					<h2>Search and Recommendation Engines</h2>
-				</section>
-
-				<!-- Truvie -->
-				<section>
-					<h3><a href="https://truvie.org/" target="_blank">Truvie Online Learning</a></h3>
-					<div>Elasticsearch faceted search with timezones and course availability</div>
-					<img src="https://user-images.githubusercontent.com/125707/137732991-a765c477-7c68-4e9f-a17f-22775accdadd.png" />
-				</section>
-
-				<!-- UNSDG Specific: Jobs Page-->
-				<section style="" class="present">
-					<h3><a href="https://unsdg.un.org/jobss" target="_blank">UN Systemwide Jobs Page</a></h3>
-					<img class="" src="https://user-images.githubusercontent.com/125707/137734106-b4fc20dd-0827-4f25-b244-aa2704ad419b.png" />
-				</section>
-
-				<section>
-					<h3><a href="https://educator.jewishedproject.org/" target="_blank">Jewish Educators Portal</a></h3>
-					<div>An interactive resource archive</div>
-					<img src="https://user-images.githubusercontent.com/86193908/230854308-d531e01c-00da-4d40-89bf-4487a60e87a2.png" />
-				</section>
-
-				<section>
-					<h2>Powerful Authoring Tools</h2>
-				</section>
-
-
-				<!-- UNOP -->
-				<section>
-					<h3><a href="https://unpartnerships.un.org/" target="_blank">The United Nations Office for Partnerships</a></h3>
-					<div>Easy Creation of highly designed landing pages</div>
-					<img src="https://user-images.githubusercontent.com/125707/137732642-f1ab0c5f-822e-49c4-9dda-7aac7765d103.jpg" />
-				</section>
-
-				<section>
-					<h3><a href="https://www.oist.jp/" target="_blank">OIST</a></h3>
-					<div>Multilingual Unviversity System</div>
-					<img src="https://user-images.githubusercontent.com/86193908/230860848-afe4262c-70d6-4877-a96d-262ddbc3e31f.png" />
-				</section>
-
-				<section>
-					<h3><a href="https://beta.wmo.int/" target="_blank">World Meteorological Association</a></h3>
-					<img src="https://user-images.githubusercontent.com/86193908/230861487-23453763-0039-498e-b8da-9e1105a6fa34.png" />
-				</section>
-
-				<section>
-					<h2>Other Fun Projects</h2>
-				</section>
-
-				
-				<section>
-					<h3><a href="http://gizra.github.io/CDL/" target="_blank">Casa del Lector</a></h3>
-					<img src="https://user-images.githubusercontent.com/86193908/230921979-0ea8a3af-27c2-4b43-b6b7-785dee008c48.png" />
-				</section>
-				<section>
-					<h3>Heinrich Köhler</h3>
-					<img src="https://user-images.githubusercontent.com/86193908/230924921-eae066db-9ef8-4356-9d4b-dc7896a67dd2.png" />
-				</section>
-				
-
-
-
-
-			</div>
-		</div>
-
-		<script src="dist/reveal.js"></script>
-		<script src="plugin/notes/notes.js"></script>
-		<script src="plugin/markdown/markdown.js"></script>
-		<script src="plugin/highlight/highlight.js"></script>
-		<script>
-			// More info about initialization & config:
-			// - https://revealjs.com/initialization/
-			// - https://revealjs.com/config/
-			Reveal.initialize({
-				hash: true,
-
-				// Learn about plugins: https://revealjs.com/plugins/
-				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
-			});
-		</script>
-	</body>
+    // Learn about plugins: https://revealjs.com/plugins/
+    plugins: [RevealMarkdown, RevealHighlight, RevealNotes]
+  });
+</script>
+</body>
 </html>
